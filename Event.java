@@ -44,7 +44,9 @@ public class Event {
         this.hour = eventTime;
         this.price = Double.parseDouble(eventprice); // Assuming eventprice is a valid numeric string
     }
-
+    public Event() {
+        // Default constructor
+    }
     public String getEventName() {
         return eventName;
     }

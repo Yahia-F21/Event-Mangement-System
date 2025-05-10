@@ -1,4 +1,3 @@
-public class mainold {
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -8,6 +7,8 @@ import java.util.Scanner;
 enum Gender {
     MALE, FEMALE, OTHER;
 }
+
+public class mainold {
 
     static List<Admin> adminList = new ArrayList<>();
     static List<Category> categoryList = new ArrayList<>();
@@ -512,7 +513,7 @@ enum Gender {
 
 
         }
-    }}}
+    }    }}
 
 
 
